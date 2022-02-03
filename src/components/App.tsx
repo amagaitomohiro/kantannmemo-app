@@ -28,7 +28,7 @@ export const App: FC = () => {
 
     return (
         <div>
-           <h1>簡単メモアプリ</h1>;
+           <h1>簡単メモアプリ</h1>
            <input type="text" value={text} onChange={onChangeText} />
            <SButton onClick={onClickAdd}>追加</SButton>
            <SContainer>
@@ -55,7 +55,7 @@ const SButton = styled.button`
 const SContainer = styled.div`
   border: solid 1px #ccc;
   padding: 16px;
-  margin: 8px;
+  margin: 8;
 `
 
 const SMemoWrapper = styled.div`
